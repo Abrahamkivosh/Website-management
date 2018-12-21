@@ -4,17 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>about me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
 </head>
 
 <body>
     <div class="container" id="container">
-        <p class="title">System management system</p>
-        <div class="header">
-            This is newly developed system for managing your files and making sure that your files are save wherever they are.
+        <div>
+            <?php
+            include_once 'index.html';
+            ?>
         </div>
+        <div class="aboutme"><?php print("I will be updating this file later"); ?> </div>
 
     </div>
 
